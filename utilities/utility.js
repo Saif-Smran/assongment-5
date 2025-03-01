@@ -31,7 +31,7 @@ function getCurrentTime() {
 
 function creatActivity(title) {
 
-    let activity = `<p class="bg-[#F4F7FF] text-sm">You have Complete The Task ${title} at ${getCurrentTime()}</p>`
+    let activity = `<p class="bg-[#F4F7FF] text-sm p-2 rounded-lg">You have Complete The Task ${title} at ${getCurrentTime()}</p>`
 
     return activity
 }
@@ -45,7 +45,7 @@ function getFormattedDateParts() {
     return { weekday, datePart };
 }
 
-let {weekday, datePart } = getFormattedDateParts();
+let { weekday, datePart } = getFormattedDateParts();
 
 let currDate = `<div class="flex flex-col ">
                             <p class="text-gray-500 text-sm">
@@ -57,3 +57,9 @@ let currDate = `<div class="flex flex-col ">
                         </div>`
 
 document.getElementById('date').innerHTML += currDate;
+
+
+
+
+
+
