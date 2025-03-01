@@ -1,9 +1,9 @@
-document.getElementById('activityLog-btn').addEventListener('click', function (e){
+document.getElementById('activityLog-btn').addEventListener('click', function (e) {
     e.preventDefault()
     cleardiv('activityLog')
 })
 
-document.getElementById('blog').addEventListener('click', function (e){
+document.getElementById('blog').addEventListener('click', function (e) {
     e.preventDefault()
 
     window.location.href = './blog.html'
@@ -11,7 +11,7 @@ document.getElementById('blog').addEventListener('click', function (e){
 
 let f = 0
 
-document.getElementById('btn1').addEventListener('click', function (e){
+document.getElementById('btn1').addEventListener('click', function (e) {
     e.preventDefault()
     const button = document.getElementById('btn1')
     const title = document.getElementById('title1').innerText
@@ -26,12 +26,12 @@ document.getElementById('btn1').addEventListener('click', function (e){
     taskLeft = taskLeft - 1
     document.getElementById('taskLeft').innerText = taskLeft
     alert('Board Updated Successfully')
-    f+= 1
-    if(f === 6){
+    f += 1
+    if (f === 6) {
         alert('Congratulations! You have completed all the task')
     }
 })
-document.getElementById('btn2').addEventListener('click', function (e){
+document.getElementById('btn2').addEventListener('click', function (e) {
     e.preventDefault()
     const button = document.getElementById('btn2')
     const title = document.getElementById('title2').innerText
@@ -46,12 +46,12 @@ document.getElementById('btn2').addEventListener('click', function (e){
     taskLeft = taskLeft - 1
     document.getElementById('taskLeft').innerText = taskLeft
     alert('Board Updated Successfully')
-    f+= 1
-    if(f === 6){
+    f += 1
+    if (f === 6) {
         alert('Congratulations! You have completed all the task')
     }
 })
-document.getElementById('btn3').addEventListener('click', function (e){
+document.getElementById('btn3').addEventListener('click', function (e) {
     e.preventDefault()
     const button = document.getElementById('btn3')
     const title = document.getElementById('title3').innerText
@@ -66,12 +66,12 @@ document.getElementById('btn3').addEventListener('click', function (e){
     taskLeft = taskLeft - 1
     document.getElementById('taskLeft').innerText = taskLeft
     alert('Board Updated Successfully')
-    f+= 1
-    if(f === 6){
+    f += 1
+    if (f === 6) {
         alert('Congratulations! You have completed all the task')
     }
 })
-document.getElementById('btn4').addEventListener('click', function (e){
+document.getElementById('btn4').addEventListener('click', function (e) {
     e.preventDefault()
     const button = document.getElementById('btn4')
     const title = document.getElementById('title4').innerText
@@ -86,12 +86,12 @@ document.getElementById('btn4').addEventListener('click', function (e){
     taskLeft = taskLeft - 1
     document.getElementById('taskLeft').innerText = taskLeft
     alert('Board Updated Successfully')
-    f+= 1
-    if(f === 6){
+    f += 1
+    if (f === 6) {
         alert('Congratulations! You have completed all the task')
     }
 })
-document.getElementById('btn5').addEventListener('click', function (e){
+document.getElementById('btn5').addEventListener('click', function (e) {
     e.preventDefault()
     const button = document.getElementById('btn5')
     const title = document.getElementById('title5').innerText
@@ -106,12 +106,12 @@ document.getElementById('btn5').addEventListener('click', function (e){
     taskLeft = taskLeft - 1
     document.getElementById('taskLeft').innerText = taskLeft
     alert('Board Updated Successfully')
-    f+= 1
-    if(f === 6){
+    f += 1
+    if (f === 6) {
         alert('Congratulations! You have completed all the task')
     }
 })
-document.getElementById('btn6').addEventListener('click', function (e){
+document.getElementById('btn6').addEventListener('click', function (e) {
     e.preventDefault()
     const button = document.getElementById('btn6')
     const title = document.getElementById('title6').innerText
@@ -126,8 +126,8 @@ document.getElementById('btn6').addEventListener('click', function (e){
     taskLeft = taskLeft - 1
     document.getElementById('taskLeft').innerText = taskLeft
     alert('Board Updated Successfully')
-    f+= 1
-    if(f === 6){
+    f += 1
+    if (f === 6) {
         alert('Congratulations! You have completed all the task')
     }
 })
